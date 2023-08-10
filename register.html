@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login/Register</title>
+</head>
+<style>
+  h1 {
+    color: #8a2be2;
+  }
+
+  h2 {
+    color: blue;
+  }
+
+  body {
+    font-family: Arial;
+  }
+
+  img {
+    width: 20%;
+  }
+
+  nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0 5px;
+  }
+
+  nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+</style>
+
+<body>
+  <!--NAVIGATION TAB -->
+  <header>
+
+    <nav>
+      <ul class="nav-links">
+        <a href="Homepage.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="AboutUs.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="Howitworks.html">How it Works</a>
+      </ul>
+    </nav>
+
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or feedback, please don't hesitate to contact us. We're here to help!</p>
+      <button>Contact Us</button>
+    </div>
+
+  </header>
+  <h1>Login or Register</h1>
+
+  <h2>Existing Customers - Login:</h2>
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    <input type="submit" value="Login">
+  </form>
+
+  <h2>New Customers - Register:</h2>
+  <form>
+    <label for="new-username">Username:</label>
+    <input type="text" id="new-username" name="new-username" required><br><br>
+    <label for="new-password">Password:</label>
+    <input type="password" id="new-password" name="new-password" required><br><br>
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+    <input type="submit" value="Register">
+  </form>
+
+
+</body>
+
+</html>
+
